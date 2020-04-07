@@ -1,0 +1,34 @@
+exports.data = [
+  {
+    name:"admin",
+    password:0
+  },
+  {
+    name:"张1",
+    password:1
+  },
+  {
+    name:"张2",
+    password:2
+  },
+  {
+    name:"张3",
+    password:3
+  },
+  {
+    name:"张4",
+    password:4
+  },
+  {
+    name:"张41",
+    password:41
+  },
+  {
+    name:"张60",
+    password:60
+  },
+  {
+    name:"张100",
+    password:100
+  },
+]

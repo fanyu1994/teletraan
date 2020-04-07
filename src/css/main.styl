@@ -1,0 +1,51 @@
+@font-face
+{
+  font-family: title
+  src url("../../public/font/font2.ttf")
+}
+.main
+  position relative
+  font-family: title
+  .main_ctn
+    padding-top: 70px
+    height: 920px
+    .main_info,.main_data
+      box-shadow 0 0 10px black
+      font-size 13px
+      height 500px
+      border-radius 10px
+      margin 10px 0
+      padding 10px
+      background-color: #2c343c
+      color #fba784
+      overflow: auto
+      &::-webkit-scrollbar
+        width: 6px
+        border-radius: 10px;
+        background-color: #F5F5F5;
+      &::-webkit-scrollbar-track 
+        border-radius: 10px;
+        background-color: #2c343c;
+      &::-webkit-scrollbar-thumb
+        border-radius: 10px;
+        background-color: #ffad33;
+      span 
+        display inline-block
+        width 100%
+        font-size 14px
+        margin-bottom 10px
+    .main_data
+      height 300px
+      position relative
+      ul
+        list-style none
+        padding 10px
+        li
+          padding 5px 0
+      img 
+        width: 20px
+        position absolute  
+        right 10px
+        transition all .1s
+        &:active
+          transform: rotate(360deg)
